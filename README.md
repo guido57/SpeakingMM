@@ -31,10 +31,12 @@ Raspbian Stretch Headless Setup Procedure](https://www.raspberrypi.org/forums/vi
 
 ### Install Software
 1. Install the NGINX web server
+
 Follow these instructions to install and start the NGINX web server in your Raspberry Pi, including PHP support. 
 [SETTING UP AN NGINX WEB SERVER ON A RASPBERRY PI](https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md)
 
 2. Set SSL on NGINX web server
+
 Create the two certificate files server.key and server.crt that will be used ny NGINX web server when serving HTTPS
 ```
 sudo mkdir /etc/nginx/conf.d/ssl 
@@ -96,6 +98,7 @@ server {
 }
 ```
 3. Install googletrans
+
 This is a python program which is able to use Google Translate. 
 It acts like the [Google Translate Web Site](https://translate.google.it/)
 For further info see [https://pypi.python.org/pypi/googletrans](https://pypi.python.org/pypi/googletrans)
