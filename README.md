@@ -33,6 +33,7 @@ Raspbian Stretch Headless Setup Procedure](https://www.raspberrypi.org/forums/vi
 1. Install the NGINX web server
 
 Follow these instructions to install and start the NGINX web server in your Raspberry Pi, including PHP support. 
+
 [SETTING UP AN NGINX WEB SERVER ON A RASPBERRY PI](https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md)
 
 2. Set SSL on NGINX web server
