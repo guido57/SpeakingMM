@@ -95,4 +95,10 @@ server {
 	}
 }
 ```
-
+3. Install googletrans
+This is a python program which is able to use Google Translate. 
+It acts like the [Google Translate Web Site](https://translate.google.it/)
+For further info see [https://pypi.python.org/pypi/googletrans](https://pypi.python.org/pypi/googletrans)
+```
+sudo pip3 googletrans
+```
